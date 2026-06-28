@@ -1,19 +1,20 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.3",
+    "version":  "0.2.4",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-28T18:29:58.1778070Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.3",
+    "publishedAt":  "2026-06-28T19:51:47.8095543Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.4",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.3/ScreensaverVideoPlayerSetup-0.2.3-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.3-win-x64.exe",
-                      "sha256":  "4B56676EA8BDFE3F6185470E61580ED72345416B50404742FD7EF5D32A968A38",
-                      "sizeBytes":  138345703
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.4/ScreensaverVideoPlayerSetup-0.2.4-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.4-win-x64.exe",
+                      "sha256":  "4505439A45EDB7E72FB0BE8E891C12DE9ADBB6FA66F60434C72F547A9F976069",
+                      "sizeBytes":  138376935
                   },
     "changelog":  [
-                      "Built the first public Windows installer.",
-                      "Prepared direct screensaver.pro download support.",
-                      "Added SHA256 verification for early preview installs."
+                      "Added curated 10-hour playlist shelves from the screensaver channel.",
+                      "Added independent collapsible playlist groups for easier browsing.",
+                      "Added Classic 4:3 zoom with overscan for videos with baked-in side bars.",
+                      "Refined app header copy and installer icon metadata."
                   ]
 }
