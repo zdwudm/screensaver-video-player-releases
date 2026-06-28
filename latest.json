@@ -1,21 +1,19 @@
 {
-    "product":  "YT Screensaver Manager",
+    "product":  "Screensaver Video Player",
     "channel":  "stable",
     "version":  "0.2.3",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-28T13:33:28.4797045Z",
-    "releaseUrl":  "https://github.com/zdwudm/YTScreensaverManager-Releases/releases/tag/v0.2.3",
+    "publishedAt":  "2026-06-28T18:25:17.9187746Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.3",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/YTScreensaverManager-Releases/releases/download/v0.2.3/YtScreensaverManagerSetup-0.2.3-win-x64.exe",
-                      "fileName":  "YtScreensaverManagerSetup-0.2.3-win-x64.exe",
-                      "sha256":  "C37FDF783DADC2A118C33A04B5F7AEFAD9E6692E49D42ECE784CDC2781852CB2",
-                      "sizeBytes":  138317019
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.3/ScreensaverVideoPlayerSetup-0.2.3-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.3-win-x64.exe",
+                      "sha256":  "4B56676EA8BDFE3F6185470E61580ED72345416B50404742FD7EF5D32A968A38",
+                      "sizeBytes":  138345703
                   },
     "changelog":  [
-                      "Public release repository introduced for downloads and update metadata.",
-                      "Improved catalog grouping and screensaver search.",
-                      "Improved fullscreen playback shutdown so audio stops more reliably.",
-                      "Background notification now appears only once.",
-                      "YouTube captions are disabled where the embedded player allows it."
+                      "Built the first public Windows installer.",
+                      "Prepared direct screensaver.pro download support.",
+                      "Added SHA256 verification for early preview installs."
                   ]
 }
