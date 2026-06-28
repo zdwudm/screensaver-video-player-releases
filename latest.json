@@ -1,20 +1,18 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.4",
+    "version":  "0.2.5",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-28T19:52:50.8597029Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.4",
+    "publishedAt":  "2026-06-28T21:16:51.9760361Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.5",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.4/ScreensaverVideoPlayerSetup-0.2.4-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.4-win-x64.exe",
-                      "sha256":  "4505439A45EDB7E72FB0BE8E891C12DE9ADBB6FA66F60434C72F547A9F976069",
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.5/ScreensaverVideoPlayerSetup-0.2.5-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.5-win-x64.exe",
+                      "sha256":  "665656E85AE68ED36378E6B70823398C909E7DAB1FEFFE52DA9B681F62A14489",
                       "sizeBytes":  138376935
                   },
     "changelog":  [
-                      "Added curated 10-hour playlist shelves from the screensaver channel.",
-                      "Added independent collapsible playlist groups for easier browsing.",
-                      "Added Classic 4:3 zoom with overscan for videos with baked-in side bars.",
-                      "Refined app header copy and installer icon metadata."
+                      "Improved YouTube Studio traffic attribution by using app.screensaver.pro as the embedded player origin.",
+                      "Added an explicit cross-origin referrer policy for YouTube playback."
                   ]
 }
