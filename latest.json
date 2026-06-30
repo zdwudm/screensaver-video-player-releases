@@ -1,19 +1,19 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.10",
+    "version":  "0.2.11",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-30T13:52:28.9887123Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.10",
+    "publishedAt":  "2026-06-30T14:42:09.7422264Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.11",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.10/ScreensaverVideoPlayerSetup-0.2.10-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.10-win-x64.exe",
-                      "sha256":  "5FF05FEE69EB5767DE8500AE734F649D673DF1637F0B8219FABAFE9D5EDF827F",
-                      "sizeBytes":  138393831
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.11/ScreensaverVideoPlayerSetup-0.2.11-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.11-win-x64.exe",
+                      "sha256":  "23ED90AE8259991E314415BA748DE69A14AC047F9BE09526CBD796135CF11DCB",
+                      "sizeBytes":  138396903
                   },
     "changelog":  [
-                      "Start with Windows now launches in the tray instead of opening the main window.",
-                      "Background startup suppresses preview audio until the app is opened.",
-                      "Minimize and close now keep the app running cleanly in the tray."
+                      "Fixed update installation failures caused by locked files.",
+                      "Installer now stops processes running from the installation directory before replacing files.",
+                      "Installer now retries existing installation cleanup before failing."
                   ]
 }
