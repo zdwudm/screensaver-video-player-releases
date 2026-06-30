@@ -1,19 +1,19 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.8",
+    "version":  "0.2.9",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-30T12:10:10.4494971Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.8",
+    "publishedAt":  "2026-06-30T12:42:27.2889738Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.9",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.8/ScreensaverVideoPlayerSetup-0.2.8-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.8-win-x64.exe",
-                      "sha256":  "21F416B5069AAB1DDA05BF15AA98DA60AAC5EB815CEDA7B7466C0D9FA0575F6D",
-                      "sizeBytes":  138390759
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.9/ScreensaverVideoPlayerSetup-0.2.9-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.9-win-x64.exe",
+                      "sha256":  "1186CFC61807D3AC3EC75BBBDC7CD6FE478A55CD1097A2F1DDA769C033455114",
+                      "sizeBytes":  138392807
                   },
     "changelog":  [
-                      "Added automatic update checks with user confirmation.",
-                      "Added manual update checks from the app sidebar and tray menu.",
-                      "Added SHA256-verified installer download and relaunch flow."
+                      "Fixed automatic screensaver startup after Windows lock and unlock.",
+                      "Added session lock and unlock handling for idle monitoring.",
+                      "Improved diagnostics for idle startup decisions."
                   ]
 }
