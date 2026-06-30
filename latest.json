@@ -1,19 +1,19 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.7",
+    "version":  "0.2.8",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-30T10:15:29.9003088Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.7",
+    "publishedAt":  "2026-06-30T12:10:10.4494971Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.8",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.7/ScreensaverVideoPlayerSetup-0.2.7-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.7-win-x64.exe",
-                      "sha256":  "5F8AA24758CF9272576848A8A8F3F3315B5DE691F1F7AFDCA916D388A0B29E9B",
-                      "sizeBytes":  138381543
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.8/ScreensaverVideoPlayerSetup-0.2.8-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.8-win-x64.exe",
+                      "sha256":  "21F416B5069AAB1DDA05BF15AA98DA60AAC5EB815CEDA7B7466C0D9FA0575F6D",
+                      "sizeBytes":  138390759
                   },
     "changelog":  [
-                      "Fixed selected screensaver persistence across app restarts.",
-                      "Saved a stable local video identity so feed-only videos do not fall back to the first local catalog entry while feeds load.",
-                      "Prevented duplicate app instances and duplicate tray icons."
+                      "Added automatic update checks with user confirmation.",
+                      "Added manual update checks from the app sidebar and tray menu.",
+                      "Added SHA256-verified installer download and relaunch flow."
                   ]
 }
