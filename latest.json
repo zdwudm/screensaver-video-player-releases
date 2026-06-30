@@ -1,19 +1,19 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.11",
+    "version":  "0.2.12",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-30T14:42:09.7422264Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.11",
+    "publishedAt":  "2026-06-30T16:17:26.9583195Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.12",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.11/ScreensaverVideoPlayerSetup-0.2.11-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.11-win-x64.exe",
-                      "sha256":  "23ED90AE8259991E314415BA748DE69A14AC047F9BE09526CBD796135CF11DCB",
-                      "sizeBytes":  138396903
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.12/ScreensaverVideoPlayerSetup-0.2.12-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.12-win-x64.exe",
+                      "sha256":  "E96E9CBB0D2C285A8E018DB3A6229234397E44BF6E60D287822F2993938329B5",
+                      "sizeBytes":  138399975
                   },
     "changelog":  [
-                      "Fixed update installation failures caused by locked files.",
-                      "Installer now stops processes running from the installation directory before replacing files.",
-                      "Installer now retries existing installation cleanup before failing."
+                      "Add tray menu options to pause automatic screensaver start for 1, 2, 4, or 8 hours, or until tomorrow.",
+                      "Persist the pause state locally so it survives app and Windows restarts.",
+                      "Show pause status and resume action directly in the tray menu."
                   ]
 }
