@@ -1,19 +1,19 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.6",
+    "version":  "0.2.7",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-29T09:35:27.0758706Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.6",
+    "publishedAt":  "2026-06-30T10:15:29.9003088Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.7",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.6/ScreensaverVideoPlayerSetup-0.2.6-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.6-win-x64.exe",
-                      "sha256":  "2E4C92CCE810F86B3D29B9B6EFB87119427664C091ACDFFA62CDF0E9454E1E4E",
-                      "sizeBytes":  138376935
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.7/ScreensaverVideoPlayerSetup-0.2.7-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.7-win-x64.exe",
+                      "sha256":  "5F8AA24758CF9272576848A8A8F3F3315B5DE691F1F7AFDCA916D388A0B29E9B",
+                      "sizeBytes":  138381543
                   },
     "changelog":  [
-                      "Fixed YouTube playback in the downloadable app by restoring the stable local WebView origin.",
-                      "Improved diagnostics for YouTube player errors by recording the player error code.",
-                      "Known note: VPN or traffic-filtering tools can block YouTube embedded playback inside WebView2."
+                      "Fixed selected screensaver persistence across app restarts.",
+                      "Saved a stable local video identity so feed-only videos do not fall back to the first local catalog entry while feeds load.",
+                      "Prevented duplicate app instances and duplicate tray icons."
                   ]
 }
