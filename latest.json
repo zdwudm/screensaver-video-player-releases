@@ -3,7 +3,7 @@
     "channel":  "stable",
     "version":  "0.2.9",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-30T12:42:27.2889738Z",
+    "publishedAt":  "2026-06-30T12:47:56.3634684Z",
     "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.9",
     "installer":  {
                       "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.9/ScreensaverVideoPlayerSetup-0.2.9-win-x64.exe",
