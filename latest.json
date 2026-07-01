@@ -1,19 +1,19 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.13",
+    "version":  "0.2.14",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-07-01T09:42:40.0586191Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.13",
+    "publishedAt":  "2026-07-01T09:58:42.4531391Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.14",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.13/ScreensaverVideoPlayerSetup-0.2.13-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.13-win-x64.exe",
-                      "sha256":  "FA0E4BE7A10CE744769195F32AB3A626DDE7A82D576E621E24CEAC63E1B34391",
-                      "sizeBytes":  138402023
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.14/ScreensaverVideoPlayerSetup-0.2.14-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.14-win-x64.exe",
+                      "sha256":  "5F7CC760EB4F0F9D2796396FB6CFA72AF4B8819534991F7383DFC490D6BDA547",
+                      "sizeBytes":  138414823
                   },
     "changelog":  [
-                      "Make in-app updates more robust by installing each new version into a versioned app folder instead of overwriting locked files in place.",
-                      "Update shortcuts, uninstall metadata, and existing autostart entries to point to the new versioned app folder.",
-                      "Pass the running app process ID to future installers and dispose WebView resources before shutdown."
+                      "Show a visible update progress window while downloading updates from within the app.",
+                      "Show a persistent installer progress window during first install and updates.",
+                      "Report downloaded megabytes and percent when the installer size is known."
                   ]
 }
